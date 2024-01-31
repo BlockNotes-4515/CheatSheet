@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information!</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">IITM</h2>
+        <nav class="navigation">
+            <a href="Home.html"><button class="btnLogin-popup"><font color="aqua">Home</font></button></a>
+        </nav>
+    </header>
+    
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+            </span>
+
+
+        <div class="form-box login">
+            <h2>SunDown SNotes</h2>
+            <form action="Home.html">
+                <div class="input-box">
+                    <label><mark><b><u>Problem Statement:</u></b> Biggest Issue for all students is getting incomplete notes, unaware about topic which has been left, assignments, notes, pyq's papers. Which wastes students valuable time!(Who are absent/ Not-attending!)</mark></label>
+                </div>
+                <br>
+                <div class="input-box">
+                    <label><mark><b><u>Soluton:</u></b></mark> SunDown Snotes provides you all the content material whether it is <mark>(Notes/PYQ's/Assignments/Events)</mark> which saves your productive time, Internet Consumption as well without wasting in searching it on Google, and it also helps those student who are getting incomplete notes!</label>
+                </div>
+                <br><br>
+                <div class="remember-forgot">
+                    <center><a href="https://web.whatsapp.com/"><mark><b><u>Submit it on:</u></b></mark>+91-8529994515(Watshapp)</a></center>
+                </div>
+                <a href="Home.html"><button type="submit" class="btn">Fetch / Save your Time : )</button></a>
+                <div class="login-register">
+                    <p>Please! Read About the mention Notice for all my friends(Students): <a href="#" class="register-link">Warning!</a></p>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="form-box register">
+            <h2>Alert!</h2>
+            <form action="Home.html">
+                <div class="input-box">
+                    <label><mark><center><u><b>Straight forward written given below:</b></u></center></mark></label>
+                </div>
+                <center><font color="black">
+                <div class="input-box">
+                    <label>Keep this as the "Private" between all of our friends, bestfriends.. & all students from both (sections/semesters) of BCA, Main motive of this website is to help the students not degrade the student in terms of lazyness.</label>
+                </div>
+                <div class="input-box">
+                    <label>By following the Terms/condition based on policy. We, are not responsible for somebody's dependencies/lazyness!</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>Sundown SNotes agreed to the Terms & Conditions.</label>
+                </div>
+                <a href="Home.html"><button type="submit" class="btn">Proceed SNotes</button></a>
+                <div class="login-register">
+                    <p>Reviewing the Statement<a href="#" class="login-link"> SunDown>></a> <br>DDProductions</p>
+                </div>
+                </font></center>
+            </form>
+        </div>
+    </div>
+
+<script src="first.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCpjjqWRHpjC5UkOTKwhvv6kQettxuesL4",
+      authDomain: "personal-info-55342.firebaseapp.com",
+      projectId: "personal-info-55342",
+      storageBucket: "personal-info-55342.appspot.com",
+      messagingSenderId: "847910636632",
+      appId: "1:847910636632:web:cc1cbbed7fe0b6d1f28e2d",
+      measurementId: "G-966KLNVGZL"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth();
+    console.log(app);
+
+
+    //For Login.
+    document.getElementById("login").addEventListener("click", function() {
+		  var Email =  document.getElementById("Email").value;
+		  var Password = document.getElementById("Password").value;
+
+		  signInWithEmailAndPassword(auth, email, password)
+		  .then((userCredential) => {
+		    // Signed in 
+		    const user = userCredential.user;
+		    console.log(user);
+		    alert(user.email+" Login successfully!!!");
+		    document.getElementById('logout').style.display = 'block';
+		    // ...
+		  })
+		  .catch((error) => {
+		    const errorCode = error.code;
+		    const errorMessage = error.message;
+		    console.log(errorMessage);
+		    alert(errorMessage);
+		  });		  		  
+	  });
+	  //----- End
+    
+    //Logout Events!
+
+    document.getElementById("logout").addEventListener("click", function() {
+		  signOut(auth).then(() => {
+			  // Sign-out successful.
+			  console.log('Sign-out successful.');
+			  alert('Sign-out successful.');
+			  document.getElementById('logout').style.display = 'none';
+			}).catch((error) => {
+			  // An error happened.
+			  console.log('An error happened.');
+			});		  		  
+	  });
+	  //----- End
+
+    
+
+    //For Registeration!
+    
+    //----- New Registration code start	  
+	  document.getElementById("register").addEventListener("click", function() {
+		  var Email =  document.getElementById("Email").value;
+		  var Password = document.getElementById("Password").value;
+		  //For new registration
+		  createUserWithEmailAndPassword(auth, Email, Password)
+		  .then((userCredential) => {
+		    // Signed in 
+		    const user = userCredential.user;
+		    console.log(user);
+		    alert("Registration successfully!!");
+		    // ...
+		  })
+		  .catch((error) => {
+		    const errorCode = error.code;
+		    const errorMessage = error.message;
+		    // ..
+		    console.log(errorMessage);
+		    alert(error);
+		  });		  		  
+	  });
+	  //----- End
+  </script>
+</body>
+</html>
