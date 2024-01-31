@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Services.css">
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <title>Services</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+}
+
+body{
+    background: url("cubes.jpg");
+    padding: 0px 50px;
+}
+
+.container
+{
+    padding: 50px 0px;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.parent
+{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+}
+
+.card
+{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center center;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.card:hover
+{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5,1,0,30deg);
+}
+
+.content-box
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.811);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0,115,255,0.925) 0px 20px 50px -25px;
+    transition: all 0.5s ease-in-out;
+    padding: 50px 25px 25px 25px;
+    transform-style: preserve-3d;
+}
+
+.card-title
+{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px ,0px ,20px);
+}
+
+.card-title:hover{
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.card-content
+{
+    padding-top: 15px;
+    font-size: 12px;
+    color: rgb(185,185,185);
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.card-content:hover
+{
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.see-more
+{
+    display: block;
+    font-weight: 900;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgb(0,136,255);
+    padding-top: 15px;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.see-more:hover
+{
+    transform: translate3d(0xp, 0px, 50px);
+}
+
+.date-box
+{
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0,0,0);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgb(0, 102, 255) 0px 20px 60px 0px, rgb(0,200,255)0px 18px 36px -18px;
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.date-box span{
+    display: block;
+    text-align: center;
+}
+
+.date-box .month{
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.date-box .date{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(0,136,255);
+}
+
+.card2{
+    filter: hue-rotate(150deg);
+}
+
+.card3{
+    filter: hue-rotate(300deg);
+}
+
+
+.card4{
+    filter: hue-rotate(90deg);
+}
+
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255,255,255,.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255,255,255,.2);
+}
+.header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent,rgba(255,255,255,.4),transparent);
+    transition: .5s;
+}
+.header:hover::before
+{
+    left: 100%;
+}
+
+
+.logo
+{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a
+{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover
+{
+    color: red;
+
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #111;
+    width: 100%;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons
+{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: rgb(3, 125, 255);
+    opacity: 0.9;
+}
+/*Hover effect on social media icons.*/
+.socialIcons a:hover
+{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a :hover i
+{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover
+{
+    opacity: 1;
+}
+.footerBottom
+{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p
+{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+</style>
+<body>
+    <header class="header">
+        <a href="https://github.com/BlockNotes-4515" class="logo">CheatSheet</a>
+   
+    
+    <nav class="navbar">
+        <a href="course.html" class="logo">Course(Semester-Wise)</a>
+        <a href="Assignments.html" class="logo">Assignments</a>
+        <a href="contacts.html" class="logo">Contact</a>
+    </nav>
+    </header>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="parent">
+            <div class="card">
+                <div class="content-box">
+                    <h1 class="card-title">Notes!</h1>
+                    <p class="card-content">Provide the complete content material notes unit-wise, which helps the student
+                        in order to fetch complete proper notes, as well anyone can share his/her notes on one single plateform!
+                    </p> 
+                    <span class="see-more">See More!</span>              
+                 </div>
+                 <div class="date-box">
+                    <span class="month">January</span>
+                    <span class="date">28</span>
+                 </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="parent card2">
+            <div class="card">
+                <div class="content-box">
+                    <h1 class="card-title">Sample Papers!</h1>
+                    <p class="card-content">Akash PYQ[Previous Year Sample Paper], which helps the student to have a look and breif
+                        analyza the exam pattern, level of questions, wieghtage of marks and so on, which enhance the student's exam prepartion performance!
+                    </p> 
+                    <span class="see-more">See More!</span>              
+                 </div>
+                 <div class="date-box">
+                    <span class="month">January</span>
+                    <span class="date">29</span>
+                 </div>
+            </div>
+        </div>
+    
+
+
+
+        <div class="parent card3">
+            <div class="card">
+                <div class="content-box">
+                    <h1 class="card-title">Assignments</h1>
+                    <p class="card-content">Advantage of sharing the Assignments available on one single plateform, reduces your overall time
+                        in terms of emergency without asking with your friends on watshapp, as well helps to compare your answers as per the subject
+                    </p> 
+                    <span class="see-more">See More!</span>              
+                 </div>
+                 <div class="date-box">
+                    <span class="month">January</span>
+                    <span class="date">30</span>
+                 </div>
+            </div>
+        </div>
+
+
+
+        <div class="parent card4">
+            <div class="card">
+                <div class="content-box">
+                    <h1 class="card-title">Updates!</h1>
+                    <p class="card-content">It is just as like a central Hub, which gives you overall information, news, Updates
+                        about knowledge or as well as college, helps those student who are totally unaware!
+                    </p> 
+                    <span class="see-more">See More!</span>              
+                 </div>
+                 <div class="date-box">
+                    <span class="month">January</span>
+                    <span class="date">28</span>
+                 </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://github.com/BlockNotes-4515"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/dhruv-dhayal-9568b7262/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Suyash-4"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/suyash-48a954218/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="https://github.com/BlockNotes-4515">D-Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/dhruv-dhayal-9568b7262/">D-Linkdin</a></li>
+                    <li><a href="https://github.com/Suyash-4">S-Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/suyash-48a954218/">S-Linkdin</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024 Develouped By: <span class="designer">DhruvDhayal & Data-Managed By: SuyashMishra  (DD-Productions).</span></p>
+        </div>
+    </footer>
+</body>
+</html>
