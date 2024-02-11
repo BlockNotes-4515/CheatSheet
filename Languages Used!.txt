@@ -1,5 +1,11 @@
 HTML5, 
-CSS-Glassmorphism,Parallax,
+CSS - Glassmorphism,Parallax,
 Js,
 Node.js,
+
+
+Website Used in IITM & TRINITY, MSIT (Other Colleges as well!);
+
+
+--DD Corporations & Productions.
 
