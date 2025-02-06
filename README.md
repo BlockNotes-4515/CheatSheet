@@ -211,15 +211,14 @@ Stay tuned for more updates as we continue to enhance **CheatSheet** and make co
 <hr>
 <h1>Gallery Section (Overview Of Project)</h1>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;"> 
-   <img src="image1.png" alt="Image 1" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image2.png" alt="Image 2" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
-   <img src="image3.png" alt="Image 3" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image4.png" alt="Image 4" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
-   <img src="image5.png" alt="Image 5" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image6.png" alt="Image 6" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
-   <img src="image7.png" alt="Image 7" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image8.png" alt="Image 8" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
-   <img src="image7.png" alt="Image 7" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image8.png" alt="Image 8" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
-   <img src="image7.png" alt="Image 7" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image8.png" alt="Image 8" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
-   <img src="image7.png" alt="Image 7" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image8.png" alt="Image 8" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
-   <img src="image7.png" alt="Image 7" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image8.png" alt="Image 8" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
-   
+   <img src="image1.png" alt="Image 1" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
+   <img src="image2.png" alt="Image 2" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
+   <img src="image3.png" alt="Image 3" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
+   <img src="image4.png" alt="Image 4" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
+   <img src="image5.png" alt="Image 5" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
+   <img src="image6.png" alt="Image 6" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
+   <img src="image7.png" alt="Image 7" style="width: 200px; height: 200px; object-fit: cover;"/> <br>
+   <img src="image8.png" alt="Image 8" style="width: 200px; height: 200px; object-fit: cover;"/> <br>   
 </div>
 
 
