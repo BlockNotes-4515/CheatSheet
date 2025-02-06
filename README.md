@@ -3,6 +3,8 @@ Here’s how you can structure the content for your **CheatSheet** project in th
 ---
 
 # CheatSheet: A One-Stop Hub for College Students 📚🎓
+<center><img src="templatess.png" alt=" "></center> 
+<b>Provides overall content/ Notes/ PYQ's Papers / Assignments / Updates later it will be Updated! --DD Productions.</b>
 
 Welcome to **CheatSheet**, your ultimate academic companion designed specifically for college students who may miss classes, need quick access to important academic resources, or want to stay updated on their college activities. This repository showcases a platform that centralizes everything a student needs – from notes, assignments, to project showcases – making college life more organized and stress-free.
 
@@ -128,15 +130,7 @@ Stay tuned for more updates as we continue to enhance **CheatSheet** and make co
 
 ---
 
-Here's your updated README with emojis and section separators:
 
----
-
-# **CheatSheet** 📚  
-<center><img src="templatess.png" alt=" "></center>  
-<b>Provides overall content/ Notes/ PYQ's Papers / Assignments / Updates later it will be Updated! --DD Productions.</b>
-
----
 
 ## 📖 **Content Library:**
 
@@ -213,6 +207,17 @@ Here's your updated README with emojis and section separators:
    - **Solution**: The platform is designed with a **responsive layout**, making it easy to use on any device—whether you're on a mobile phone or a laptop.  
 
 ---
+
+<hr>
+<h1>Gallery Section (Overview Of Project)</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;"> 
+   <img src="image1.png" alt="Image 1" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image2.png" alt="Image 2" style="width: 200px; height: 200px; object-fit: cover;"/> 
+   <img src="image3.png" alt="Image 3" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image4.png" alt="Image 4" style="width: 200px; height: 200px; object-fit: cover;"/> 
+   <img src="image5.png" alt="Image 5" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image6.png" alt="Image 6" style="width: 200px; height: 200px; object-fit: cover;"/> 
+   <img src="image7.png" alt="Image 7" style="width: 200px; height: 200px; object-fit: cover;"/> <img src="image8.png" alt="Image 8" style="width: 200px; height: 200px; object-fit: cover;"/> 
+</div>
+
+
 
 ## 📄 **License**
 
