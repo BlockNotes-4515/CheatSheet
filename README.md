@@ -154,7 +154,7 @@ Here’s how you can describe the **features** and the **real problems solved** 
 This section will effectively explain the features and real problems solved by **CheatSheet**, showcasing how it helps improve the academic experience for students.
 
 ## License
-Distributed under the MIT License. See `MIT` for more information.
+Distributed under the MIT License. See <a href="https://github.com/BlockNotes-4515/CheatSheet/tree/main?tab=MIT-1-ov-file#">`MIT`>/a> for more information.
 
 ## Contact
 - **Creator and Productions By**: Dhruv Dhayal
