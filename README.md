@@ -33,50 +33,14 @@ Mobile App: Develop a user-friendly mobile app for on-the-go access to all Cheat
 Personalized Recommendations: Utilize user data and AI to suggest relevant content and learning tools based on individual needs.
 
 
-Here's a template for your **GitHub README.md** file, which you can use for the **CheatSheet** project:
 
-```markdown
-# CheatSheet Project
-
-**CheatSheet** is a one-stop solution for college students to access all important resources, including notes, assignments, project showcases, and college updates, on a single platform. The aim is to help students who might miss classes, have limited access to resources, or want to stay updated with important announcements.
-
-## Features
-- **Assignment List**: A section for students to view and download assignments.
-- **Notes Repository**: Access notes for different subjects and courses.
-- **Project Showcase**: Display and showcase your college projects, with a link to your GitHub repositories.
-- **College Updates**: Stay up-to-date with notifications regarding results, events, and important announcements.
-
-## Technologies Used
-- **Frontend**:
-  - HTML5
-  - CSS3
-  - JavaScript (Vanilla)
-  - Bootstrap 5 (for responsive design)
-  
-- **Backend** (Optional, if you plan to expand):
-  - Node.js
-  - Express.js
-
-- **Version Control**:
-  - Git & GitHub for project collaboration and versioning
-
-## Getting Started
-
-To get a local copy of the project up and running, follow these simple steps:
-
-### 1. Clone the Repository
-First, clone the repository to your local machine:
-```bash
-git clone https://github.com/<username>/cheatsheet-project.git
-```
-
-### 2. Open the Project
+### 1. Open the Project
 Navigate into the project directory:
 ```bash
 cd cheatsheet-project
 ```
 
-### 3. Open the Website
+### 2. Open the Website
 - Open `index.html` in your browser to run the project locally.
 
 ## How to Add Your Project to CheatSheet
