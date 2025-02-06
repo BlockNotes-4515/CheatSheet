@@ -213,8 +213,8 @@ Stay tuned for more updates as we continue to enhance **CheatSheet** and make co
 <div style="display: flex; flex-wrap: wrap; gap: 10px;"> 
    <img src="Sample Overview/bg1.PNG" alt="Image 1"> <hr><br>
    <img src="Sample Overview/bg2.PNG" alt="Image 2"> <hr><br>
-   <img src="Sample Overview/bg.PNG" alt="Image 3"> <hr><br>
-   <img src="Sample Overview/bg.PNG" alt="Image 4"> <hr><br>
+   <img src="Sample Overview/bg3.PNG" alt="Image 3"> <hr><br>
+   <img src="Sample Overview/bg4.PNG" alt="Image 4"> <hr><br>
    <img src="Sample Overview/bg5.PNG" alt="Image 5"> <hr><br>
    <img src="Sample Overview/bg6.PNG" alt="Image 6"> <hr><br>
    <img src="Sample Overview/bg7.PNG" alt="Image 7"> <hr><br>
