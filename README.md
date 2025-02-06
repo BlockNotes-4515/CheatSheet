@@ -109,22 +109,14 @@ Contributions are **welcome**! Feel free to fork the repository, create a branch
 5. Create a pull request on GitHub.
 
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `MIT` for more information.
 
 ## Contact
-- **Creator**: Dhruv Dhayal
+- **Creator and Productions By**: Dhruv Dhayal
 - **Email**: dhayaldhruv271@gmail.com
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/dhruv-dhayal)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/dhruv-dhayal-9568b7262/)
+- **Instagram**: [Instagram Profile](https://www.instagram.com/dhayaldhruv271/)
 
 ---
 
-**CheatSheet** helps streamline student life by providing quick access to all academic materials and updates in one place. It's a powerful tool for students who want to stay organized and be productive.
-```
 
-### **How to Use This README:**
-1. **Repository Name & Details**: Make sure to replace placeholders like `<username>` with your GitHub username.
-2. **Getting Started**: This section helps others run the project locally. Adjust it based on how your project is structured.
-3. **Contributing**: Add any specific contribution guidelines if required, but this is a standard open-source guide.
-4. **License**: If you're using a specific open-source license, make sure to include that in the `LICENSE` file.
-
-This README will provide a detailed introduction to your project and make it easy for others to contribute.
