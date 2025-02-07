@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Docs Upload - Coming Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100 text-center">
+    <div class="p-6">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">College Documents & Assignments</h1>
+        <p class="text-lg text-gray-600 mb-6">Coming Soon...</p>
+        <button class="bg-green-500 text-white px-6 py-3 rounded-lg text-xl transition-transform transform hover:bg-green-600 hover:scale-110" onclick="uploadDocs()">
+            Upload Docs via Email
+        </button>
+    </div>
+
+    <script>
+        function uploadDocs() {
+            window.location.href = "mailto:dhayaldhruv271@gmail.com?subject=Document Upload&body=Please attach your college documents and assignments.";
+        }
+    </script>
+</body>
+</html>
